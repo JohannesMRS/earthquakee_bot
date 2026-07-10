@@ -12,8 +12,9 @@ Ini merupakan bot telegram yang di buat khusus untuk menampilkan berita gempa te
 
 ### Instalasi
 ```bash
-git clone [https://github.com/JohannesMRS/earthquakee_bot](https://github.com/JohannesMRS/earthquakee_bot.git)
-cd earthquakee_bot.git
+git clone https://github.com/JohannesMRS/earthquakee_bot
+cd earthquakee_bot
+npm install
 ```
 
 ### Hal Yang Perlu Dilakukan
