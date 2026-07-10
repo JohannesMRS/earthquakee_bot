@@ -1,6 +1,6 @@
 const {TelegramBot} = require("node-telegram-bot-api");
 
-const token = "isi dengan token access kamu";
+const token = "8928162710:AAGkd7HIoX1ZFvRBlO3tPRO4s4zbbXSWG8g";
 
 
 const option = {
@@ -11,6 +11,15 @@ const earthqueakeebot = new TelegramBot(token, option);
 const prefix = "/";
 
 const gempa = new RegExp(`^${prefix}gempa$`);
+
+
+earthqueakeebot.onText(/\/start/, (msg)=>{
+    const chatId = msg.from.id;
+    const firstName = msg.from.first_name;
+
+    const welcomeMsg = `Hallo ${firstName}, Selamat Datang Di Bot Informasi Gempa Terkini`
+    earthqueakeebot.sendMessage(chatId, welcomeMsg);
+})
 
 earthqueakeebot.onText(gempa, async(callback)=>{
     const BMKG_ENDPOINT = "https://data.bmkg.go.id/DataMKG/TEWS/";
