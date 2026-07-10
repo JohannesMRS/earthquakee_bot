@@ -2,7 +2,8 @@
 
 Bot Telegram sederhana untuk menampilkan informasi gempa bumi terkini di Indonesia, dengan data langsung dari **BMKG (Badan Meteorologi, Klimatologi, dan Geofisika)**.
 
-![Tampilan Bot](https://github.com/user-attachments/assets/b45bc740-5dff-40fd-8d2b-71c301278622)
+<img width="700" height="540" alt="Screenshot From 2026-07-10 12-02-14" src="https://github.com/user-attachments/assets/92305a7d-bdce-4e2e-ad25-948a2892eb74" />
+
 
 ## Fitur
 
